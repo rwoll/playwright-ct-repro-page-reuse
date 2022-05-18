@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --my-color: red;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --my-color: green;
+  }
+}
+
+#container {
+  background-color: var(--my-color);
+  width: 100px;
+  height: 100px;
+}
